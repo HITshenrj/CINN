@@ -1,0 +1,88 @@
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 32 32 --bn 32 32 --hidden 32 0  --log_dir ./log/lr_1e-4_f_32_h_32 >> lr_1e-4_f_32_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 32 32 --bn 32 32 --hidden 16 0  --log_dir ./log/lr_1e-4_f_32_h_16 >> lr_1e-4_f_32_h_16.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 32 32 --bn 32 32 --hidden 64 0  --log_dir ./log/lr_1e-4_f_32_h_64 >> lr_1e-4_f_32_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 32 32 --bn 32 32 --hidden 128 0 --log_dir ./log/lr_1e-4_f_32_h_128 >> lr_1e-4_f_32_h_128.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 16 16 --bn 16 16 --hidden 32 0 --log_dir ./log/lr_1e-4_f_16_h_32 >> lr_1e-4_f_16_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 16 16 --bn 16 16 --hidden 64 0 --log_dir ./log/lr_1e-4_f_16_h_64 >> lr_1e-4_f_16_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 16 16 --bn 16 16 --hidden 128 0 --log_dir ./log/lr_1e-4_f_16_h_128 >> lr_1e-4_f_16_h_128.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 16 16 --bn 16 16 --hidden 16 0 --log_dir ./log/lr_1e-4_f_16_h_16 >> lr_1e-4_f_16_h_16.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 32 32 --bn 32 32 --hidden 32 0  --log_dir ./log/lr_5e-5_f_32_h_32 >> lr_5e-5_f_32_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 32 32 --bn 32 32 --hidden 16 0  --log_dir ./log/lr_5e-5_f_32_h_16 >> lr_5e-5_f_32_h_16.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 32 32 --bn 32 32 --hidden 64 0  --log_dir ./log/lr_5e-5_f_32_h_64 >> lr_5e-5_f_32_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 32 32 --bn 32 32 --hidden 128 0 --log_dir ./log/lr_5e-5_f_32_h_128 >> lr_5e-5_f_32_h_128.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 16 16 --bn 16 16 --hidden 32 0 --log_dir ./log/lr_5e-5_f_16_h_32 >> lr_5e-5_f_16_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 16 16 --bn 16 16 --hidden 64 0 --log_dir ./log/lr_5e-5_f_16_h_64 >> lr_5e-5_f_16_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 16 16 --bn 16 16 --hidden 128 0 --log_dir ./log/lr_5e-5_f_16_h_128 >> lr_5e-5_f_16_h_128.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 16 16 --bn 16 16 --hidden 16 0 --log_dir ./log/lr_5e-5_f_16_h_16 >> lr_5e-5_f_16_h_16.log &
+
+
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 1e-5  --fn 32 32 --bn 32 32 --hidden 32 0  --log_dir ./log/lr_1e-5_f_32_h_32 >> lr_1e-5_f_32_h_32.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 1e-5  --fn 32 32 --bn 32 32 --hidden 16 0  --log_dir ./log/lr_1e-5_f_32_h_16 >> lr_1e-5_f_32_h_16.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 1e-5  --fn 32 32 --bn 32 32 --hidden 64 0  --log_dir ./log/lr_1e-5_f_32_h_64 >> lr_1e-5_f_32_h_64.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 1e-5  --fn 32 32 --bn 32 32 --hidden 128 0 --log_dir ./log/lr_1e-5_f_32_h_128 >> lr_1e-5_f_32_h_128.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 1e-5  --fn 16 16 --bn 16 16 --hidden 32 0 --log_dir ./log/lr_1e-5_f_16_h_32 >> lr_1e-5_f_16_h_32.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 1e-5  --fn 16 16 --bn 16 16 --hidden 64 0 --log_dir ./log/lr_1e-5_f_16_h_64 >> lr_1e-5_f_16_h_64.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 1e-5  --fn 16 16 --bn 16 16 --hidden 128 0 --log_dir ./log/lr_1e-5_f_16_h_128 >> lr_1e-5_f_16_h_128.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 1e-5  --fn 16 16 --bn 16 16 --hidden 16 0 --log_dir ./log/lr_1e-5_f_16_h_16 >> lr_1e-5_f_16_h_16.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-4  --fn 32 32 --bn 32 32 --hidden 32 0  --log_dir ./log/lr_5e-4_f_32_h_32 >> lr_5e-4_f_32_h_32.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-4  --fn 32 32 --bn 32 32 --hidden 16 0  --log_dir ./log/lr_5e-4_f_32_h_16 >> lr_5e-4_f_32_h_16.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-4  --fn 32 32 --bn 32 32 --hidden 64 0  --log_dir ./log/lr_5e-4_f_32_h_64 >> lr_5e-4_f_32_h_64.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-4  --fn 32 32 --bn 32 32 --hidden 128 0 --log_dir ./log/lr_5e-4_f_32_h_128 >> lr_5e-4_f_32_h_128.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-4  --fn 16 16 --bn 16 16 --hidden 32 0 --log_dir ./log/lr_5e-4_f_16_h_32 >> lr_5e-4_f_16_h_32.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-4  --fn 16 16 --bn 16 16 --hidden 64 0 --log_dir ./log/lr_5e-4_f_16_h_64 >> lr_5e-4_f_16_h_64.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-4  --fn 16 16 --bn 16 16 --hidden 128 0 --log_dir ./log/lr_5e-4_f_16_h_128 >> lr_5e-4_f_16_h_128.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-4  --fn 16 16 --bn 16 16 --hidden 16 0 --log_dir ./log/lr_5e-4_f_16_h_16 >> lr_5e-4_f_16_h_16.log &
+
+
+
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 128 128 --bn 128 128 --hidden 32 0  --log_dir ./log/lr_1e-4_f_128_h_32 >> lr_1e-4_f_128_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 128 128 --bn 128 128 --hidden 16 0  --log_dir ./log/lr_1e-4_f_128_h_16 >> lr_1e-4_f_128_h_16.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 128 128 --bn 128 128 --hidden 64 0  --log_dir ./log/lr_1e-4_f_128_h_64 >> lr_1e-4_f_128_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 128 128 --bn 128 128 --hidden 128 0  --log_dir ./log/lr_1e-4_f_128_h_128 >> lr_1e-4_f_128_h_128.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 64 64 --bn 64 64 --hidden 32 0  --log_dir ./log/lr_1e-4_f_64_h_32 >> lr_1e-4_f_64_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 64 64 --bn 64 64 --hidden 16 0  --log_dir ./log/lr_1e-4_f_64_h_16 >> lr_1e-4_f_64_h_16.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 64 64 --bn 64 64 --hidden 64 0  --log_dir ./log/lr_1e-4_f_64_h_64 >> lr_1e-4_f_64_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-4  --fn 64 64 --bn 64 64 --hidden 128 0  --log_dir ./log/lr_1e-4_f_64_h_128 >> lr_1e-4_f_64_h_128.log &
+
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 128 128 --bn 128 128 --hidden 32 64  --log_dir ./log/lr_1e-5_f_128_h_32 >> lr_1e-5_f_128_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 128 128 --bn 128 128 --hidden 16 64  --log_dir ./log/lr_1e-5_f_128_h_16 >> lr_1e-5_f_128_h_16.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 128 128 --bn 128 128 --hidden 64 64  --log_dir ./log/lr_1e-5_f_128_h_64 >> lr_1e-5_f_128_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 128 128 --bn 128 128 --hidden 128 32  --log_dir ./log/lr_1e-5_f_128_h_128 >> lr_1e-5_f_128_h_128.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 64 64 --bn 64 64 --hidden 32 64  --log_dir ./log/lr_1e-5_f_64_h_32 >> lr_1e-5_f_64_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 64 64 --bn 64 64 --hidden 16 64  --log_dir ./log/lr_1e-5_f_64_h_16 >> lr_1e-5_f_64_h_16.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 64 64 --bn 64 64 --hidden 64 64  --log_dir ./log/lr_1e-5_f_64_h_64 >> lr_1e-5_f_64_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 64 64 --bn 64 64 --hidden 128 32  --log_dir ./log/lr_1e-5_f_64_h_128 >> lr_1e-5_f_64_h_128.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 32 32 --bn 32 32 --hidden 32 64  --log_dir ./log/lr_1e-5_f_32_h_32 >> lr_1e-5_f_32_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 32 32 --bn 32 32 --hidden 16 64  --log_dir ./log/lr_1e-5_f_32_h_16 >> lr_1e-5_f_32_h_16.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 32 32 --bn 32 32 --hidden 64 64  --log_dir ./log/lr_1e-5_f_32_h_64 >> lr_1e-5_f_32_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 1e-5  --fn 32 32 --bn 32 32 --hidden 128 32  --log_dir ./log/lr_1e-5_f_32_h_128 >> lr_1e-5_f_32_h_128.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 128 128 --bn 128 128 --hidden 32 64  --log_dir ./log/lr_5e-5_f_128_h_32 >> lr_5e-5_f_128_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 128 128 --bn 128 128 --hidden 16 64  --log_dir ./log/lr_5e-5_f_128_h_16 >> lr_5e-5_f_128_h_16.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 128 128 --bn 128 128 --hidden 64 64  --log_dir ./log/lr_5e-5_f_128_h_64 >> lr_5e-5_f_128_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 128 128 --bn 128 128 --hidden 128 32  --log_dir ./log/lr_5e-5_f_128_h_128 >> lr_5e-5_f_128_h_128.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 64 64 --bn 64 64 --hidden 32 64  --log_dir ./log/lr_5e-5_f_64_h_32 >> lr_5e-5_f_64_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 64 64 --bn 64 64 --hidden 16 64  --log_dir ./log/lr_5e-5_f_64_h_16 >> lr_5e-5_f_64_h_16.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 64 64 --bn 64 64 --hidden 64 64  --log_dir ./log/lr_5e-5_f_64_h_64 >> lr_5e-5_f_64_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 64 64 --bn 64 64 --hidden 128 32  --log_dir ./log/lr_5e-5_f_64_h_128 >> lr_5e-5_f_64_h_128.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 32 32 --bn 32 32 --hidden 32 64  --log_dir ./log/lr_5e-5_f_32_h_32 >> lr_5e-5_f_32_h_32.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 32 32 --bn 32 32 --hidden 16 64  --log_dir ./log/lr_5e-5_f_32_h_16 >> lr_5e-5_f_32_h_16.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 32 32 --bn 32 32 --hidden 64 64  --log_dir ./log/lr_5e-5_f_32_h_64 >> lr_5e-5_f_32_h_64.log &
+CUDA_VISIBLE_DEVICES=0 nohup python main.py  --lr 5e-5  --fn 32 32 --bn 32 32 --hidden 128 32  --log_dir ./log/lr_5e-5_f_32_h_128 >> lr_5e-5_f_32_h_128.log &
+
+
+
+
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-5  --fn 256 --bn 256 --hidden 32 64  --log_dir ./log/lr_5e-5_f_256_h_32 >> lr_5e-5_f_256_h_32.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-5  --fn 256 --bn 256 --hidden 16 64  --log_dir ./log/lr_5e-5_f_256_h_16 >> lr_5e-5_f_256_h_16.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-5  --fn 256 --bn 256 --hidden 64 64  --log_dir ./log/lr_5e-5_f_256_h_64 >> lr_5e-5_f_256_h_64.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-5  --fn 256 --bn 256 --hidden 128 32  --log_dir ./log/lr_5e-5_f_256_h_128 >> lr_5e-5_f_256_h_128.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-5  --fn 512 --bn 512 --hidden 128 32  --log_dir ./log/lr_5e-5_f_512_h_128 >> lr_5e-5_f_512_h_128.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-5  --fn 512 --bn 512 --hidden 32 32  --log_dir ./log/lr_5e-5_f_512_h_32 >> lr_5e-5_f_512_h_32.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-5  --fn 512 --bn 512 --hidden 16 32  --log_dir ./log/lr_5e-5_f_512_h_16 >> lr_5e-5_f_512_h_16.log &
+CUDA_VISIBLE_DEVICES=1 nohup python main.py  --lr 5e-5  --fn 512 --bn 512 --hidden 64 32  --log_dir ./log/lr_5e-5_f_512_h_64 >> lr_5e-5_f_512_h_64.log &
+
+
+
+
+
+CUDA_VISIBLE_DEVICES=0 nohup python baseline_MLP.py >>baseline_mlp.log &
